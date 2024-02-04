@@ -29,6 +29,21 @@
     color: purple;
 }
 
+/* Hover effect for character names */
+.CHUBUKOV:hover {
+    color: blue;
+    text-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    border: 2px solid rgba(0, 0, 255, 0.5);
+    transition: text-shadow 0.3s, border 0.3s;
+}
+
+.LOMOV:hover {
+    color: purple;
+    text-shadow: 0 0 10px rgba(128, 0, 128, 0.8);
+    border: 2px solid rgba(128, 0, 128, 0.5);
+    transition: text-shadow 0.3s, border 0.3s;
+}
+
 /* Styles for the casting table */
 .casting-table {
     width: 100%;
