@@ -29,4 +29,24 @@
     color: purple;
 }
 
-/* Add more character styles as needed */
+/* Styles for the casting table */
+.casting-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.casting-table th, .casting-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.casting-table th {
+    background-color: #f2f2f2;
+}
+
+.casting-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
